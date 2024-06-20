@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>MinimalDesk</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="bootstrapcustom.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <script src="https://unpkg.com/cart-localstorage@1.1.4/dist/cart-localstorage.min.js" type="text/javascript"></script>
+  <style>
+    .fillc {
+      width: 100%;
+    }
+
+    .bgpic {
+      background-image: url("images/aboutus.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom center;
+      height: 40em;
+      margin-left: 10vw;
+      margin-right: 10vw;
+    }
+
+    .navbar-nav .nav-link {
+      font-size: 1.15rem; 
+    }
+
+    .video-container {
+  position: relative;
+  padding-bottom: 40%; 
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+  </style>
+  <link rel="shortcut icon" href="images/lo.ico">
+</head>
+<body>
+  <!-- Header & Nav --><br><br><br><br>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div id="logo">
+      <a class="navbar-brand" href="index.html"><img src="images/logo.jpg" width="125" height="35" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto justify-content-center text-center"> 
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Tech
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="tech.html#modern-keyboard">Keyboards</a></li>
+            <li><a class="dropdown-item" href="tech.html#modern-mouse">Mouses</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            On-Desk
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="on_desk.html">Mouse Pads</a></li>
+            <li><a class="dropdown-item" href="on_desk.html#modern-notepad">Notepads</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="about.html">About</a>
+        </li>
+      </ul>
+      <div class="ml-auto" style="cursor: pointer;">
+        <a href="cart.html" class="my-cart-link">
+          <span style="font-size: 2rem;">
+            <i class="bi bi-cart2 my-cart-icon"></i>
+          </span>
+        </a>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="image-container">
+          <img src="images/desk1.jpg" class="d-block w-100" alt="desk image">
+          <div class="overlay-text carouselc">Modernize Your Desk</div>
+        </div>
+        <div class="carousel-caption d-none d-md-block"></div>
+      </div>
+      <div class="carousel-item">
+        <div class="image-container">
+          <img src="images/desk2.jpg" class="d-block w-100" alt="desk image">
+          <div class="overlay-text carouselc">Contemporary Style</div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="image-container">
+          <img src="images/desk3.jpg" class="d-block w-100" alt="desk image">
+          <div class="overlay-text carouselc">Minimalist Look</div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br>
+
+  <main class="container">
+    <h2>Shop Our Minimalist Essentials</h2><br><br>
+    <div class="row justify-content-center">
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4 text-center">
+        <img src="images/homekey.jpg" class="img-fluid productimg" alt="Image 2">
+        <div id="abouttech">
+          Modern Keyboard V2- <strong>$120</strong>
+        </div>
+
+        <button type="button" class="btn btn-block btn-outline-primary buttonc" onClick="cartLS.add({id: 1, name: 'Modern Keyboard V2', price: 120})">Add to Cart</button>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4 text-center">
+        <img src="images/homemouse.jpg" class="img-fluid productimg" alt="Image 2">
+        <br>
+        <div id="abouttech">
+          Modern Mouse V2- <strong>$110</strong>
+        </div>
+
+        <button type="button" class="btn btn-block btn-outline-primary buttonc" onClick="cartLS.add({id: 2, name: 'Modern Mouse V2', price: 110})">Add to Cart</button>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4 text-center">
+        <img src="images/homenote.jpg" class="img-fluid productimg" alt="Image 2">
+        <div id="abouttech">
+          Modern Notepad(Wide)- <strong>$50</strong><br>
+          <button type="button" class="btn btn-block btn-outline-primary buttonc" onClick="cartLS.add({id: 3, name: 'Modern Notedpad(Wide)', price: 50})">Add to Cart</button>
+        </div>
+
+      </div>
+    </div>
+   <!-- Cart -->
+<div class="container">
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header">
+      <h2>Cart</h2>
+    </div>
+    <div class="card-body">
+      <div class="table-responsive"> 
+        <table class="table">
+          <tbody class="cart"></tbody>
+          <tfoot>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="text-right">Total: <strong class="total"></strong></td>
+              <td></td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <br><br><br><br>
+    <h2>Desktop Inspirations</h2> <br><br>
+    <!-- Grid -->
+    <div class="row">
+      <div class="col-sm-6">
+        <img src="images/desktop1.jpg" alt="desktop" class="img-fluid rounded">
+      </div>
+      <div class="col-sm-6">
+        <img src="images/desktop2.jpg" alt="desktop" class="img-fluid rounded">
+      </div>
+    </div>
+  
+<br><br><br><br>
+<h2>Reviewed By Tech Enthusiasts</h2>
+<div class="container d-flex justify-content-center align-items-center">
+  <div class="video-container">
+    <iframe width="110%" height="90%" src="https://www.youtube.com/embed/oSL74MCxQ1o?si=O4wIvJ9KXHEkYCjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+</div>
+
+  <br><br><br><br>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card square-box">
+        <div class="card-body text-center">
+          <h3 class="card-title">Contact Us</h3>
+          <p class="card-text">Click the button below to go to the contact page.</p>
+          <a href="contact.html" class="btn btn-primary buttonc">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card square-box">
+        <div class="card-body text-center">
+          <h3 class="card-title">About Us</h3>
+          <p class="card-text">Click the button below to learn more about us.</p>
+          <a href="about.html" class="btn btn-primary buttonc">About</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </main>
+</main>
+  <br><br><br>
+
+
+<!--***For this footer I did learn how to do it from a youtube video. Used some ideas from the video but changed it up for my website***-->
+
+  <div class="foot">
+    <footer>
+    <div class="footercontainer">
+      <div class="socialIcons">
+        <a href="https://www.facebook.com"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.youtube.com"><i class="bi bi-youtube"></i></a>
+        <a href="https://www.instagram.com"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.twitter.com"><i class="bi bi-twitter-x"></i></a>
+        <a href="https://www.linkedin.com"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="footerNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="tech.html">Tech</a></li>
+          <li><a href="on_desk.html">On-Desk</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </div>
+      <div class="footerBottom">
+        <p>Copyright &copy;2024; Designed by L.C
+      </div>
+    </div>
+    </footer>
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script>
+    function renderCart(items) {
+      const $cart = document.querySelector(".cart")
+      const $total = document.querySelector(".total")
+
+      $cart.innerHTML = items.map((item) => `
+        <tr>
+          <td>#${item.id}</td>
+          <td>${item.name}</td>
+          <td>${item.quantity}</td>
+          <td style="width: 60px;">	
+            <button type="button" class="btn btn-block btn-sm btn-outline-primary buttonc" onClick="cartLS.quantity(${item.id},1)">+</button>
+          </td>
+          <td style="width: 60px;">	
+            <button type="button" class="btn btn-block btn-sm btn-outline-primary buttonc" onClick="cartLS.quantity(${item.id},-1)">-</button>
+          </td>
+          <td class="text-right">$${item.price}</td>
+          <td class="text-right"><Button class="btn btn-primary buttonc" onClick="cartLS.remove(${item.id})">Delete</Button></td>
+        </tr>`).join("")
+
+      $total.innerHTML = "$" + cartLS.total()
+    }
+    renderCart(cartLS.list())
+    cartLS.onChange(renderCart)
+  </script>
+</body>
+</html>
